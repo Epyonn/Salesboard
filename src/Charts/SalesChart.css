@@ -1,0 +1,93 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .featuredItem {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .featuredTitle{
+      font-size: 20px;
+  }
+  
+  .featuredMoneyContainer{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .featuredMoney{
+      font-size: 30px;
+      font-weight: 600;
+
+  }
+  
+  .featuredMoneyRate{
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+  }
+  
+
+
+  .featuredIcon{
+      font-size: 14px;
+      margin-left: 5px;
+      color: orange;
+  }
+  
+  .featuredIcon.Cart{
+      color: blue;
+  }
+  
+  .featuredSub{
+      font-size: 15px;
+      color: gray;
+  }
+
+  .moneyIcon {
+      color: green;
+  }
+
+
+  .container {
+      display: flex;
+
+  }
+
+
+  .bar-container{
+ 
+      flex-grow: 3;
+      margin: 0px 0px 0px 0px;
+      
+      width: 500px;
+
+  }
+
+
+
+  .pie-container{
+   flex-grow: 0.5;
+   overflow: visible;
+   z-index: 5;
+
+
+  }
+
+  .top10 {
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
